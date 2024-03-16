@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/employee', employeeRoutes);
 
 const PORT = process.env.PORT || 8080;
-const MONGODB_URI = 'mongodb+srv://manishathakur1925:IonYWxOBvXylgjX2@cluster0.zjzv7bb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Replace this with your online MongoDB connection string
+const MONGODB_URI = 'mongodb://127.0.0.1:27017/Employee_DB'; // Replace this with your online MongoDB connection string
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
@@ -22,3 +22,4 @@ mongoose.connect(MONGODB_URI, {
     console.log(`Server is running on port ${PORT}`);
   });
 }).catch(err => console.error('Error connecting to MongoDB:', err));
+
