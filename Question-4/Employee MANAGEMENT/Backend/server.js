@@ -11,7 +11,7 @@ app.use(cors());
 app.use('/employee', employeeRoutes);
 
 const PORT = process.env.PORT || 8080;
-const MONGODB_URI = 'mongodb://127.0.0.1:27017/Employee_DB'; // Replace this with your online MongoDB connection string
+const MONGODB_URI = 'mongodb://127.0.0.1:27017/Datasheet_DB'; // Replace this with your online MongoDB connection string
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
