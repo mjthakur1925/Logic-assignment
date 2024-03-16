@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #141212; /* Changed h1 color */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #2c2c2c; /* Changed th background color */
+    color: #fff;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 2px solid #141211; /* Changed input border color */
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    color: #333; /* Changed input text color */
+}
+
+input[type="text"]:focus {
+    border-color: #2f2e2d; /* Changed input border color on focus */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Custom styles for table hover effect */
+tr:hover {
+    background-color: #ffeadb; /* Changed hover background color */
+    transition: background-color 0.3s ease;
+}
+
+/* Custom styles for buttons */
+.btn {
+    padding: 10px 20px;
+    background-color: #494949; /* Changed button background color */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #606060; /* Changed button hover background color */
+}
+
